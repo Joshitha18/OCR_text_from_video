@@ -39,7 +39,6 @@ for frame in tqdm(frames):
     # replacing \n
     text_in_image = data.replace('\n', '')
 
-
     # Removing unwanted spaces
     text_in_image = text_in_image.strip()
 

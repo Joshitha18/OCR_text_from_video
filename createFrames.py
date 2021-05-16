@@ -22,8 +22,6 @@ while True:
         # Saving frame to .png file
         cv2.imwrite(name, frame)
     frameCnt += 1
-    # if cv2.waitKey(33):
-    #     break
 
 test_video.release()
 cv2.destroyAllWindows()
